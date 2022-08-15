@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chakshu Gupta</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/1.jpeg" alt="Chakshu Gupta" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Chakshu Gupta">Chakshu Gupta</h1>
+
+          <p class="title">PhD Candidate</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="analytics-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Research Interests</p>
+
+              <p class="contact-link">IoT Security<br> Network Security<br> System Secuity</>
+            </div>
+
+          </li>
+        </ul>
+        
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a class="contact-link">c.gupta@utwente.nl</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Enschede, Netherlands</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/ChakshuGupta" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/chakshugupta/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://twitter.com/__mar4uder" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>CV</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Supervision</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Media</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            When you struggle with a problem, that’s when you understand it.” – Elon Musk
+          </p>
+
+          <p>
+            I am a PhD candidate with the Services and Cybersecurity research group at the University of Twente. My research is in the system security domain, focusing on the security of the IoT devices.
+          </p>
+        </section>
+ 
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+            </button>
+
+            <div class="modal-img-wrapper">
+              
+            </div>
+
+            <div class="modal-content">            
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="cv" data-page="cv">
+
+        <header>
+          <h2 class="h2 article-title">CV</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PhD Candidate</h4>
+
+              <span>Oct 2021 - Present</span>
+
+              <p class="timeline-text">
+                <b>University of Twente</b> <br>
+                My PhD research is on the topic "Modeling IoT Device Behavior for Threat Detection and Response"
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Developer</h4>
+
+              <span>May 2020 - Aug 2020</span>
+
+              <p class="timeline-text">
+                <b>Google Summer of Code</b><br>
+                Worked with OWASP Foundation on their OWASP Honeypot project.<br>
+                • Refactored the existing code-base to improve readability, modularity and quality.<br>
+                • Standardized code testing by adding unit tests and setting up CI for the project. <br>
+                • Improved efficiency by replacing subprocess calls with an open-source library for capturing network traffic.<br>
+                • Implemented new features to the project that include storing network traffic in files and an interface to access recorded data and files.<br>
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Senior Ground Software Engineer - TeamIndus Skywalker</h4>
+
+              <span>July 2016 - May 2019</span>
+
+              <p class="timeline-text">
+                <b>Team Indus - Axiom Research Labs Pvt. Ltd.</b><br>
+                As a senior software engineer in the Ground Software team, my work involved designing and developing mission-critical software required for Mission Control from where the spacecraft and the lunar rover would be monitored and controlled.<br>
+
+                I worked on all the phases of the software development life-cycle, starting from Planning & Designing till Deployment & Maintenance. The work here entailed the use of a wide variety of technologies and programming languages such as C, C++, CMake, googletest, Java, Python, Flask framework, QT, JavaScript, etc.<br>
+
+                During my tenure, I got a chance to deliver a TEDx talk on “Space: The Final Frontier” at NIT Surathkal, Karnataka, India.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Intern</h4>
+
+              <span>Jan 2016 - May 2016</span>
+
+              <p class="timeline-text">
+                <b>Dataweave Software Pvt. Ltd.</b><br>
+                I interned with the semantics team, that was responsible for building the machine learning algorithms required for the smart tools developed in-house. During my tenure, I worked on Gender prediction and Attribute extraction from images of E-commerce apparel.<br>
+                I also exposed the models I developed as APIs which returned the predicted gender of the product taking image URL/ path as input. This tool was a PoC for the ML algorithms to be used for comparing products across E-commerce websites.<br>
+                For the PoC, I also built a benchmarking tool to compare the results of the existing systems and visualizing them in the form of graphs.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">M.Sc Computer Science: <i>Cybersecurity</i></h4>
+
+              <span>Sept 2019 - Aug 2021</span>
+
+              <p class="timeline-text">
+                <b>University of Twente (Enschede, Netherlands)</b><br>
+                Thesis: "HoneyKube: Designing a Honeypot Using Microservices-Based Architecture". 
+                <!-- The thesis report can be found <a href="https://essay.utwente.nl/88323/">here</a>. -->
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Master Honours Programme: <i>Great Negotiators</i></h4>
+
+              <span>Nov 2020 - July 2021</span>
+
+              <p class="timeline-text">
+                <b>University of Twente (Enschede, Netherlands)</b><br>
+                This track focused on developing one’s negotiation and communication skills, strategic deal-making and ethical conflict management during the execution of various projects.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">B.Tech. Computer Science Engineering</h4>
+
+              <span>July 2012 - May 2016</span>
+
+              <p class="timeline-text">
+                <b>The LNM Institute of Information Technology (Jaipur, India)</b><br>
+                Activities and Societies: Coordinator Alumni Association, IEEE Student Branch - Vice-Chairperson(2015-16) and Secretary(2014-15), Admission Committee, Counselling Cell, Coordinator Dance Club (2014-2015)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PUBLICATIONS
+      -->
+<!-- 
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+
+        <section class="publications-text">
+          
+        </section>
+
+      </article> -->
+
+
+      <!--
+        - #SUPERVISION
+      -->
+
+      <article class="supervision" data-page="supervision">
+
+        <header>
+          <h2 class="h2 article-title">Supervision</h2>
+        </header>
+
+        <section class="supervision-text">
+
+          <ul class="supervision-list">
+            <li class="supervision-item"> Martijn de Redelijkheid: <a href=#>"Monitoring Network Traffic and Responding to Malicious Traffic for IoT Devices in 5G Network Slices"</a> (In Progress)</li>
+          </ul>
+          
+        </section>
+
+      </article>
+
+      <!--
+        - #MEDIA
+      -->
+
+      <article class="media" data-page="media">
+
+        <header>
+          <h2 class="h2 article-title">Media</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.utoday.nl/spotlight/71114/we-need-more-women-who-arent-presented-as-princesses">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web-1.jpg" alt="We need more women who aren’t presented as princesses" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">UToday</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-03-Mar">Mar 08, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">We need more women who aren’t presented as princesses</h3>
+
+                  <p class="blog-text">
+                    Would you boldly go where nobody like you has gone before? ‘That is the power of role models: they inspire you and show you what is possible. Without their example, you’ll stay in your own bubble.’ Today, on the International Women’s Day, seven women from the UT share stories about their personal role models and what (female) representation means to them.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=4NZTcNDfEnw">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web-3.png" alt="Walking This Road Together | Collaboration between KLM and DesignLab" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Youtube</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2021-16-Mar">Mar 16, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Walking This Road Together | Collaboration between KLM and DesignLab</h3>
+
+                  <p class="blog-text">
+                    By working transdisciplinary, UT DreamTeam students have created an algorithm with Air France KLM Martinair Cargo, to devise a more efficient and, in result, more sustainable cargo process. The prototype allows for real-time insights in the cargo process, as to optimise the loading capacity of aircrafts.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=S8nEZ4y0k1I">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web-pp.jpg" alt="Interviewing Chakshu Gupta | Engineer - TeamIndus Mission Control" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Youtube</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2018-03-19">Mar 19, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Interviewing Chakshu Gupta | Engineer - TeamIndus Mission Control</h3>
+
+                  <p class="blog-text">
+                    Join us as our TeamIndus Campus Ambassadors - Kunal Kulkarni and Deepnika Jain interact with TeamIndus Ninja Chakshu Gupta to know more about her journey with TeamIndus and what lies ahead for Axiom Research Labs.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/watch?v=o0sxn7fOgZw">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web-tedx.JPG" alt="Space : The final frontier | Chakshu Gupta | TEDxNITKSurathkal" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Youtube</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2018-02-06">Feb 06, 2018</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Space : The final frontier | Chakshu Gupta | TEDxNITKSurathkal</h3>
+
+                  <p class="blog-text">
+                    Mankind's fascination with the Moon and the space beyond spans millennia. TeamIndus is the only Indian entrant amongst the last 5 teams in the Google Lunar XPrize competition. They are building a privately funded Spacecraft and a Rover to land on the Moon, a mission planned for early 2018. Chakshu Gupta is a Ground Software Engineer at TeamIndus. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://yourstory.com/2017/06/women-of-team-indus/">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/web-2.avif" alt="These five women from Team Indus are working to take India to the moon" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">YourStory</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2017-06-30">Jun 30, 2017</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">These five women from Team Indus are working to take India to the moon</h3>
+
+                  <p class="blog-text">
+                    Team Indus is working on a space mission and these women are powering this team's dream to land on the moon. 
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/@ChGDream/my-google-summer-of-code-2020-journey-with-owasp-b772c3e67c3f">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.png" alt="My Google Summer of Code journey with OWASP" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Medium</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2020-08-24">Aug 24, 2020</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">My Google Summer of Code journey with OWASP</h3>
+
+                  <p class="blog-text">
+                    Work timeline while working on OWASP Honeypot project during GSoC 2020
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
