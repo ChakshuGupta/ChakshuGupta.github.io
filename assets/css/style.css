@@ -512,6 +512,10 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
+.about-text p b{
+  color:sandybrown;
+}
+
 .about-quote {
   width: 95%;
   text-align: center;
