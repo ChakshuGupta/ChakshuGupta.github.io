@@ -513,16 +513,10 @@ main {
 .about-text p { margin-bottom: 15px; }
 
 .about-quote {
-  /* background-color:darkslategrey; */
   width: 95%;
-  padding: 10px;
-  margin: 7px;
-  /* border: 1px; */
-  border-radius: 15px;
   text-align: center;
   font-family: 'Brush Script MT', cursive;
   font-size: x-large;
-  box-shadow: 3px 5px 7px gray;
   color: indianred;
 }
 
