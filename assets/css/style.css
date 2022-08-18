@@ -130,6 +130,8 @@
 a { 
   text-decoration: none;
   cursor: pointer;
+  color: cadetblue;
+  font-family: var(--ff-poppins);
 }
 
 img, ion-icon, button, time, span { display: block; }
@@ -611,11 +613,6 @@ main {
   padding: 20px;
   font-family: var(--ff-poppins);
   font-size: var(--fs-5);
-}
-
-.supervision-item > a {
-  color: cadetblue;
-  font-family: var(--ff-poppins);
 }
 
 /*-----------------------------------*\
