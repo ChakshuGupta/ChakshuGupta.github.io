@@ -602,6 +602,53 @@ main {
   line-height: 1.6;
 }
 
+/*-----------------------------------*\
+  #ACADEMIC
+\*-----------------------------------*/
+.academic-title-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+
+.academic-title-wrapper h3{
+  color:hsl(45, 76%, 84%);
+}
+
+
+
+/*-----------------------------------*\
+  #PUBLICATION
+\*-----------------------------------*/
+.publication-list {
+  color: var(--white-2);
+  list-style: square;
+  margin: 10;
+  padding: 20px;
+  font-size: var(--fs-5);
+}
+
+.publication-item { position: relative; }
+
+.publication-item:not(:last-child) { margin-bottom: 20px; }
+
+.publication-item-title {
+  font-size: var(--fs-5);
+  font-weight: var(--fw-400);
+  line-height: 1;
+  margin-bottom: 7px;
+  color:hsl(22, 84%, 80%);
+}
+
+.publication-item-subtitle{
+  color:hsl(0, 4%, 81%);
+}
+.publication-item-loc{
+  font-style: italic;
+  color:hsl(0, 4%, 81%);
+}
+
 
 /*-----------------------------------*\
   #SUPERVISION
@@ -615,20 +662,11 @@ main {
   font-size: var(--fs-5);
 }
 
-
-
-/*-----------------------------------*\
-  #PUBLICATION
-\*-----------------------------------*/
-.publication-list {
-  color: var(--white-2);
-  list-style: square;
-  margin: 10;
-  padding: 20px;
-  font-family: var(--ff-poppins);
-  font-size: var(--fs-5);
+.supervision-list a{
+  color:hsl(22, 84%, 80%);
+  text-decoration: none;
+  cursor: pointer;
 }
-
 
 
 /*-----------------------------------*\
