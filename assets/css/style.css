@@ -635,7 +635,6 @@ main {
 
 .publication-item-title {
   font-size: var(--fs-5);
-  font-weight: bold;
   line-height: 1;
   margin-bottom: 7px;
   color:hsl(0, 0%, 100%);
@@ -653,20 +652,44 @@ main {
 /*-----------------------------------*\
   #SUPERVISION
 \*-----------------------------------*/
-.supervision-list {
-  color: hsl(36, 24%, 67%);
-  list-style: square;
-  margin: 10;
-  padding: 20px;
-  font-family: var(--ff-poppins);
-  font-size: var(--fs-5);
+.supervision-table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.supervision-list a{
+.supervision-table th, td {
+  text-align: left;
+  padding: 7px;
+  color: hsl(36, 24%, 67%);
+  font-size: var(--fs-7);
+}
+
+.supervision-table td a{
   color:hsl(0, 0%, 100%);
   text-decoration: none;
   cursor: pointer;
-  font-weight: bolder;
+}
+
+
+/*-----------------------------------*\
+  #REVIEWER SERVICE
+\*-----------------------------------*/
+
+.reviwer-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.reviwer-table th, td {
+  text-align: left;
+  padding: 8px;
+  color: hsl(36, 24%, 67%);
+}
+
+.reviwer-table td a{
+  color:hsl(0, 0%, 100%);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -890,7 +913,7 @@ main {
 
   .info_more-btn ion-icon { display: none; }
 
-  .separator { margin: 32px 0; }
+  .separator { margin: 32px 1; }
 
   .contacts-list { gap: 20px; }
 
